@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MARS FACTS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!--html header for webpage-->
+  <div class="jumbotron text-center">
+    <h1 class="display-4">Mission to Mars</h1>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a>
+    </p>
+  </div>
+  <div class="container-fluid"> 
+    <div class="row" style=>
+  
+      <div class="col-md-6" style="padding: 5%;">
+        <h2>Latest Mars News</h2>
+        <h3>{{ mars.news_title }}</h3>
+        <p>{{ mars.news_p }}</p>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
