@@ -12,20 +12,15 @@
 <body>
   <!--html header for webpage-->
   <div class="jumbotron text-center">
-    <h1 class="display-4">Mission to Mars</h1>
+    <h1>Mission to Mars</h1>
     <p class="lead">
       <a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a>
     </p>
   </div>
-  <div class="container-fluid"> 
-    <div class="row" style=>
-  
-      <div class="col-md-6" style="padding: 5%;">
-        <h2>Latest Mars News</h2>
-        <h3>{{ mars.news_title }}</h3>
-        <p>{{ mars.news_p }}</p>
-      </div>
-    </div>
+  <div id="mars_news" class="col-lg-12 row">
+    <h2>Latest Mars News!</h2>
+    <h3> {{  mars.news_title  }}</h3>
+    <p>{{  mars.p_text  }}</p>
   </div>
 
 
