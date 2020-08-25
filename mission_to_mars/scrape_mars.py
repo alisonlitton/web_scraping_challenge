@@ -89,7 +89,7 @@ def scrape():
         "news_p":news_p ,
         "feat_img": feat_img ,
         "mars_facts": mars_table ,
-        "hemis": hemi_dict
+        "hemisphere_names": hemi_url
     }
 
     # Close the browser after scraping
